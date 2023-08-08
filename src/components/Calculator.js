@@ -1,5 +1,5 @@
-import CalculatorDisplay from './CalculatorDisplay';
-import CalculatorKeypad from './CalculatorKeypad';
+import CalculatorDisplay from "./CalculatorDisplay";
+import CalculatorKeypad from "./CalculatorKeypad";
 
 function Calculator() {
   return (
