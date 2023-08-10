@@ -2,10 +2,8 @@
 
 
 <div align="center">
-  
-
-  <h1><b>Javascript Capstone</b></h1>
-
+  <h1><b>Math Magicians 🧮</b></h1>
+  <br/>
 </div>
 
 # 📗 Table of Contents
@@ -15,16 +13,16 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#getting-started)
+  - [💻 Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-  - [🔭 Future Features ](#future-features)
-  - [👥 Authors ](#author)
-  - [Contributions](#contributions)
-  - [⭐️ Show your support ](#️support)
-  - [🙏 Acknowledgments ](#acknowledgments)
+  - [🔭 Future Features](#future-features)
+  - [👥 Authors](#authors)
+  - [🤝 Contributing](#contributing)
+  - [⭐️ Show your support](#support)
+  - [🙏 Acknowledgements](#acknowledgements)
   - [📝 License ](#license)
 
 
@@ -73,7 +71,9 @@ To run the project, execute the following command:
 
 -  **Add more functionality to the calculator**
 
-## 👥 Author <a name="authors"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Karim Barragan**
 
@@ -82,19 +82,24 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contributions
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## ⭐️ Show your support <a name="support"></a>
  
 If you like this project like it and give me a follow.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for the oportunity given to me to work in this project
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 📝 License <a name="license"></a>
