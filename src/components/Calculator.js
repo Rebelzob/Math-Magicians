@@ -10,8 +10,20 @@ function Calculator() {
     operation: null,
   });
 
-  const handler = (button) => {
+  const handler = (button, event) => {
+    event.target.classList.add('clicked');
     setDigits(calculate(digits, button));
+    setTimeout(() => {
+      event.target.classList.remove('clicked');
+    }, 100);
+  };
+
+  const handlerOperator = (button, event) => {
+    event.target.classList.add('clickedOperator');
+    setDigits(calculate(digits, button));
+    setTimeout(() => {
+      event.target.classList.remove('clickedOperator');
+    }, 100);
   };
 
   return (
@@ -21,6 +33,7 @@ function Calculator() {
       />
       <CalculatorKeypad
         handler={handler}
+        handlerOperator={handlerOperator}
       />
     </div>
   );
