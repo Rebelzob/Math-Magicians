@@ -1,7 +1,9 @@
-function CalculatorDisplay() {
+// eslint-disable-next-line react/prop-types
+function CalculatorDisplay({ digits }) {
   return (
     <div className="calculator-display">
-      <div>0</div>
+      {/* eslint-disable-next-line react/prop-types */}
+      <div>{digits.next || digits.total || '0'}</div>
     </div>
   );
 }
