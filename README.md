@@ -2,10 +2,8 @@
 
 
 <div align="center">
-  
-
-  <h1><b>Javascript Capstone</b></h1>
-
+  <h1><b>Math Magicians 🧮</b></h1>
+  <br/>
 </div>
 
 # 📗 Table of Contents
