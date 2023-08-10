@@ -20,6 +20,30 @@ body {
   width: 40%;
 }
 
+.quote-loading {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  box-shadow: rgba(33, 52, 224, 0.4) 0 5px, rgba(33, 52, 224, 0.3) 0 10px, rgba(33, 52, 224, 0.2) 0 15px, rgba(33, 52, 224, 0.1) 0 20px, rgba(33, 52, 224, 0.05) 0 25px;
+}
+
+.quote-error {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  box-shadow: rgba(224, 33, 33, 0.4) 0 5px, rgba(224, 33, 33, 0.3) 0 10px, rgba(224, 33, 33, 0.2) 0 15px, rgba(224, 33, 33, 0.1) 0 20px, rgba(224, 33, 33, 0.05) 0 25px;
+}
+
 .quote-text {
   font-style: italic;
   margin-bottom: 15px;
@@ -37,7 +61,7 @@ body {
 .calculator {
   width: 40%;
   min-width: 400px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
 }
 
 .calculator-display {

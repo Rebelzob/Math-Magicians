@@ -5,6 +5,7 @@ const RandomQuote = () => {
   const [isLoading, setIsLoaded] = React.useState(false);
   const [hasError, setHasError] = React.useState(null);
   const getQuote = async () => {
+    setIsLoaded(true);
     const category = 'knowledge';
     await fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
       method: 'GET',
@@ -14,7 +15,6 @@ const RandomQuote = () => {
       },
     }).then((response) => response.json()).then((data) => {
       setQuote(data);
-      setIsLoaded(true);
     }).catch((error) => {
       setHasError(error);
       setIsLoaded(false);
@@ -28,13 +28,13 @@ const RandomQuote = () => {
 
   if (isLoading) {
     return (
-      <div className="quote">
-        <p>Loading...</p>
+      <div className="quote-loading">
+        <p>  Loading...</p>
       </div>
     );
   } if (hasError) {
     return (
-      <div className="quote">
+      <div className="quote-error">
         <p>Something went wrong...</p>
       </div>
     );
