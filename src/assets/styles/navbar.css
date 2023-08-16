@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+
+.list {
+  display: flex;
+  font-size: x-large;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.list-item {
+  cursor: pointer;
+}
