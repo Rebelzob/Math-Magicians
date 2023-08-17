@@ -13,15 +13,11 @@ function NavBar() {
               Home
             </NavLink>
           </li>
-          <li>
-            |
-          </li>
+          <li className="separator" />
           <li className="list-item">
             <NavLink to="/calculator">Calculator</NavLink>
           </li>
-          <li>
-            |
-          </li>
+          <li className="separator" />
           <li className="list-item">
             <NavLink to="/quote">Quote</NavLink>
           </li>
